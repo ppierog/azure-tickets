@@ -1,0 +1,3 @@
+azure-devops @ git+https://github.com/ppierog/azure-devops-python-api.git#egg=azure-devops&subdirectory=azure-devops
+pymsteams==0.2.2
+python-dotenv
