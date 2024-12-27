@@ -6,7 +6,7 @@ if __name__ == "__main__":
     load_dotenv()
     access_token = os.getenv("AZURE_TOKEN")
     org_url = os.getenv("AZURE_ORG_URL")
-    users_string = os.getenv("USERS")
+    users_string = os.getenv("AZURE_USERS")
     users = users_string.replace('\n','').split(",")
     teams_webhook = os.getenv("TEAMS_WEBHOOK")
    
